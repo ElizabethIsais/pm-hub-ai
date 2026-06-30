@@ -1,0 +1,65 @@
+/* ── CSS Custom Properties — PM Knowledge Hub AI ─────────────────────────── */
+:root {
+  /* ── Accent — blush pink ── */
+  --primary:      #C47D95;
+  --primary-bg:   rgba(196, 125, 149, 0.10);
+  --primary-hover:rgba(196, 125, 149, 0.16);
+
+  /* ── Semantic ── */
+  --success:      #4caf82;
+  --warning:      #e8a045;
+  --danger:       #e07070;
+
+  /* ── Light theme (default) ── */
+  --bg-base:      #F9F7F5;
+  --bg-card:      #FFFFFF;
+  --bg-el:        #F0EBF0;
+  --bg-hover:     rgba(196, 125, 149, 0.07);
+  --bg-input:     #FFFFFF;
+  --border:       #EAE5EA;
+  --border-focus: rgba(196, 125, 149, 0.40);
+  --text:         #18181F;
+  --text-muted:   #64748B;
+  --text-faint:   #B8B0BC;
+
+  /* ── Shadows ── */
+  --shadow-sm:    0 1px 4px rgba(0, 0, 0, 0.06);
+  --shadow:       0 4px 20px rgba(0, 0, 0, 0.07);
+  --shadow-lg:    0 8px 36px rgba(0, 0, 0, 0.10);
+
+  /* ── Layout ── */
+  --topnav-h:     54px;
+  --mobile-nav-h: 64px;
+
+  /* ── Shape ── */
+  --radius-xs:  6px;
+  --radius-sm:  10px;
+  --radius:     14px;
+  --radius-lg:  20px;
+
+  /* ── Motion ── */
+  --transition:   0.18s ease;
+  --transition-fast: 0.12s ease;
+
+  /* ── Font ── */
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+[data-theme="dark"] {
+  --primary:      #C47D95;
+  --primary-bg:   rgba(196, 125, 149, 0.12);
+  --primary-hover:rgba(196, 125, 149, 0.20);
+  --bg-base:      #111118;
+  --bg-card:      #1C1C26;
+  --bg-el:        #262630;
+  --bg-hover:     rgba(196, 125, 149, 0.07);
+  --bg-input:     #1C1C26;
+  --border:       #2E2E3E;
+  --border-focus: rgba(196, 125, 149, 0.40);
+  --text:         #E8E6F0;
+  --text-muted:   #9A96AA;
+  --text-faint:   #504C60;
+  --shadow-sm:    0 1px 4px rgba(0, 0, 0, 0.25);
+  --shadow:       0 4px 20px rgba(0, 0, 0, 0.35);
+  --shadow-lg:    0 8px 36px rgba(0, 0, 0, 0.50);
+}
